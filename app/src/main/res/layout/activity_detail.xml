@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txt_nama_doa"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_margin="20dp"
-        android:text="Doa Memohon Perlindungan Dunia dan Akhirat"
+        android:gravity="center"
+        android:text="Nama Doa"
         android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txt_surah_doa"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ"
+        android:text="Surah"
         android:textSize="34sp"
         android:textStyle="normal"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/txt_latin_doa"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:text="Rabbana atina fiddunya hasanah wa fil akhiroti hasanah waqina 'adzabannar."
+        android:text="Latin doa"
         android:textSize="16sp"
         android:textStyle="italic"/>
 
+
     <TextView
+        android:id="@+id/txt_arti_doa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Artinya :"
-        android:textSize="16sp"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat dan peliharalah kami dari siksa neraka."
+        android:text="Arti Doa"
         android:textSize="16sp"/>
 
 </LinearLayout>
